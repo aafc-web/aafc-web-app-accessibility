@@ -1,49 +1,48 @@
-
-  <meta charset="utf-8" />
-  <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+<meta charset="utf-8" />
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-  <title>Beta - Web Application Accessibility Guidance - Agriculture and Agri-Food Canada (AAFC)</title>
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <meta property="dcterms:issued" title="W3CDTF" content="2013-02-21" />
-  <meta property="dcterms:modified" title="W3CDTF" content="2018-07-25" />
-  <meta property="dcterms:format" title="gcformat" content="" />
-  <meta property="dcterms:title" content="Canadian agri-food sector intelligence" />
-  <meta property="aafc:subject" title="aafcsubject" content="bottled water industry;organic food industry;nutraceuticals" />
-  <meta property="dcterms:subject" title="gccore" content="benchmarks;imports;food" />
-  <meta property="dcterms:description" content="Poultry and Eggs Poultry and egg market information historical trends trade data and import permits factsheets and publications federally registered plants and stations and a list of industry associations." />
-  <meta property="dcterms:language" title="ISO639-2" content="eng" />
-  <meta property="keywords" content="snack foods;Livestock Livestock;Seafood Information;economic growth;three-month advance access period" />
-  <meta property="dcterms:audience" title="gcaudience" content="" />
-  <meta property="dcterms:type" title="gctype" content="resource list" />
-  <meta property="dcterms:creator" content="Agriculture and Agri-Food Canada" />
-  <meta property="dcterms:spatial" title="gcregions" content="" />
-  <script src="https://www.agr.gc.ca/assets.adobedtm.com/caacec67651710193d2331efef325107c23a0145/satelliteLib-c2082deaf69c358c641c5eb20f94b615dd606662.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" />
-  <meta property="dcterms:service" content="AAFC-AAC" />
-  <meta property="dcterms:accessRights" content="2" />
-  <!--[if gte IE 9 | !IE ]><!-->
-  <link href="https://www.agr.gc.ca/res/wet-boew4/assets/favicon.ico" rel="icon" type="image/x-icon" />
-  <link rel="stylesheet" href="https://www.agr.gc.ca/res/wet-boew4/css/wet-boew.min.css" />
-  <!--<![endif]-->
-  <link rel="stylesheet" href="https://www.agr.gc.ca/res/wet-boew4/css/theme.min.css" />
-  <!--[if lt IE 9]>
-  <link href="https://www.agr.gc.ca/res/wet-boew4/assets/favicon.ico" rel="shortcut icon"/>
-  <link rel="stylesheet" href="https://www.agr.gc.ca/res/wet-boew4/css/ie8-wet-boew.min.css"/>
-  <link rel="stylesheet" href="https://www.agr.gc.ca/res/wet-boew4/css/ie8-theme.min.css"/>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="https://www.agr.gc.ca/res/wet-boew4/js/ie8-wet-boew.min.js"></script>
-  <![endif]-->
-  <noscript>
-    <link rel="stylesheet" href="https://www.agr.gc.ca/res/wet-boew4/css/noscript.min.css" /></noscript>
-  <!-- CustomScriptsCSSStart -->
-  <link rel="stylesheet" href="https://www.agr.gc.ca/res/aafc-aac4/css/theme.css" />
-  <link rel="stylesheet" href="https://www.agr.gc.ca/res/aafc-aac4/css/util.css" />
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="https://www.agr.gc.ca/res/aafc-aac4/css/theme-ie.css" />
-  <link rel="stylesheet" href="https://www.agr.gc.ca/res/aafc-aac4/css/util-ie.css" />
-  <![endif]-->
-  <script src="https://www.agr.gc.ca/res/aafc-aac4/js/util.js"></script>
-  <!-- CustomScriptsCSSEnd -->
+<title>Beta - Web Application Accessibility Guidance - Agriculture and Agri-Food Canada (AAFC)</title>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<meta property="dcterms:issued" title="W3CDTF" content="2013-02-21" />
+<meta property="dcterms:modified" title="W3CDTF" content="2018-07-25" />
+<meta property="dcterms:format" title="gcformat" content="" />
+<meta property="dcterms:title" content="Canadian agri-food sector intelligence" />
+<meta property="aafc:subject" title="aafcsubject" content="bottled water industry;organic food industry;nutraceuticals" />
+<meta property="dcterms:subject" title="gccore" content="benchmarks;imports;food" />
+<meta property="dcterms:description" content="Poultry and Eggs Poultry and egg market information historical trends trade data and import permits factsheets and publications federally registered plants and stations and a list of industry associations." />
+<meta property="dcterms:language" title="ISO639-2" content="eng" />
+<meta property="keywords" content="snack foods;Livestock Livestock;Seafood Information;economic growth;three-month advance access period" />
+<meta property="dcterms:audience" title="gcaudience" content="" />
+<meta property="dcterms:type" title="gctype" content="resource list" />
+<meta property="dcterms:creator" content="Agriculture and Agri-Food Canada" />
+<meta property="dcterms:spatial" title="gcregions" content="" />
+<script src="https://www.agr.gc.ca/assets.adobedtm.com/caacec67651710193d2331efef325107c23a0145/satelliteLib-c2082deaf69c358c641c5eb20f94b615dd606662.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" />
+<meta property="dcterms:service" content="AAFC-AAC" />
+<meta property="dcterms:accessRights" content="2" />
+<!--[if gte IE 9 | !IE ]><!-->
+<link href="https://www.agr.gc.ca/res/wet-boew4/assets/favicon.ico" rel="icon" type="image/x-icon" />
+<link rel="stylesheet" href="https://www.agr.gc.ca/res/wet-boew4/css/wet-boew.min.css" />
+<!--<![endif]-->
+<link rel="stylesheet" href="https://www.agr.gc.ca/res/wet-boew4/css/theme.min.css" />
+<!--[if lt IE 9]>
+<link href="https://www.agr.gc.ca/res/wet-boew4/assets/favicon.ico" rel="shortcut icon"/>
+<link rel="stylesheet" href="https://www.agr.gc.ca/res/wet-boew4/css/ie8-wet-boew.min.css"/>
+<link rel="stylesheet" href="https://www.agr.gc.ca/res/wet-boew4/css/ie8-theme.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://www.agr.gc.ca/res/wet-boew4/js/ie8-wet-boew.min.js"></script>
+<![endif]-->
+<noscript>
+  <link rel="stylesheet" href="https://www.agr.gc.ca/res/wet-boew4/css/noscript.min.css" /></noscript>
+<!-- CustomScriptsCSSStart -->
+<link rel="stylesheet" href="https://www.agr.gc.ca/res/aafc-aac4/css/theme.css" />
+<link rel="stylesheet" href="https://www.agr.gc.ca/res/aafc-aac4/css/util.css" />
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://www.agr.gc.ca/res/aafc-aac4/css/theme-ie.css" />
+<link rel="stylesheet" href="https://www.agr.gc.ca/res/aafc-aac4/css/util-ie.css" />
+<![endif]-->
+<script src="https://www.agr.gc.ca/res/aafc-aac4/js/util.js"></script>
+<!-- CustomScriptsCSSEnd -->
 </head>
 
 # <abbr title="Web Experience Toolkit">WET</abbr> 4.0  Accessibility Guidance for Web Applications
