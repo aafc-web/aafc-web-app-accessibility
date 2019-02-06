@@ -17,7 +17,6 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <meta property="dcterms:type" title="gctype" content="resource list" />
 <meta property="dcterms:creator" content="Agriculture and Agri-Food Canada" />
 <meta property="dcterms:spatial" title="gcregions" content="" />
-<script src="https://www.agr.gc.ca/assets.adobedtm.com/caacec67651710193d2331efef325107c23a0145/satelliteLib-c2082deaf69c358c641c5eb20f94b615dd606662.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" />
 <meta property="dcterms:service" content="AAFC-AAC" />
 <meta property="dcterms:accessRights" content="2" />
@@ -42,7 +41,6 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <link rel="stylesheet" href="https://www.agr.gc.ca/res/aafc-aac4/css/theme-ie.css" />
 <link rel="stylesheet" href="https://www.agr.gc.ca/res/aafc-aac4/css/util-ie.css" />
 <![endif]-->
-<script src="https://www.agr.gc.ca/res/aafc-aac4/js/util.js"></script>
 <!-- CustomScriptsCSSEnd -->
 </head>
 
