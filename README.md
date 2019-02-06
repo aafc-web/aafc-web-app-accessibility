@@ -4,7 +4,6 @@
 wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
   <title>Beta - Web Application Accessibility Guidance - Agriculture and Agri-Food Canada (AAFC)</title>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
-
   <meta property="dcterms:issued" title="W3CDTF" content="2013-02-21" />
   <meta property="dcterms:modified" title="W3CDTF" content="2018-07-25" />
   <meta property="dcterms:format" title="gcformat" content="" />
@@ -18,13 +17,10 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
   <meta property="dcterms:type" title="gctype" content="resource list" />
   <meta property="dcterms:creator" content="Agriculture and Agri-Food Canada" />
   <meta property="dcterms:spatial" title="gcregions" content="" />
-
   <script src="https://www.agr.gc.ca/assets.adobedtm.com/caacec67651710193d2331efef325107c23a0145/satelliteLib-c2082deaf69c358c641c5eb20f94b615dd606662.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" />
-
   <meta property="dcterms:service" content="AAFC-AAC" />
   <meta property="dcterms:accessRights" content="2" />
-
   <!--[if gte IE 9 | !IE ]><!-->
   <link href="https://www.agr.gc.ca/res/wet-boew4/assets/favicon.ico" rel="icon" type="image/x-icon" />
   <link rel="stylesheet" href="https://www.agr.gc.ca/res/wet-boew4/css/wet-boew.min.css" />
@@ -37,10 +33,8 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://www.agr.gc.ca/res/wet-boew4/js/ie8-wet-boew.min.js"></script>
   <![endif]-->
-
   <noscript>
     <link rel="stylesheet" href="https://www.agr.gc.ca/res/wet-boew4/css/noscript.min.css" /></noscript>
-
   <!-- CustomScriptsCSSStart -->
   <link rel="stylesheet" href="https://www.agr.gc.ca/res/aafc-aac4/css/theme.css" />
   <link rel="stylesheet" href="https://www.agr.gc.ca/res/aafc-aac4/css/util.css" />
