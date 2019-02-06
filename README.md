@@ -1,7 +1,5 @@
 <head>
   <meta charset="utf-8" />
-  <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
-wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
   <title>Beta - Web Application Accessibility Guidance - Agriculture and Agri-Food Canada (AAFC)</title>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <meta property="dcterms:issued" title="W3CDTF" content="2013-02-21" />
