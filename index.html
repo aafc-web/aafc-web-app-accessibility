@@ -209,7 +209,198 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
       <li>A step by step indicator OR a progress bar depending on the nature of the content</li>
     </ul>
 
-    <p class="coming-soon">Coming soon!</p>
+    <table class="table table-bordered">
+      <caption class="text-left">Examples of Multi-Steps Pages</caption>
+      <thead>
+        <th class="active">Topic</th>
+        <th class="active">Coding</th>
+        <th class="active">Presentation</th>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th id="step-by-step-indicator">Step by Step Indicator</th>
+          <td>
+            <p>Where possible, divide long forms into multiple smaller forms that constitute a series of logical steps or stages.</p>
+            <br>
+
+            <details>
+              <summary class="well well-sm">Step by Step Indicator: HTML</summary>
+              <pre><code class="prettyprint">&lt;figure class=&quot;sample &quot;&gt;
+    &lt;figcaption&gt;Example: &lt;/figcaption&gt;
+    &lt;div class=&quot;box-content&quot;&gt;
+    &lt;div class=&quot;tlwrapper&quot;&gt;
+      &lt;ol class=&quot;timeline&quot;&gt;
+        &lt;li class=&quot;timeline-past&quot;&gt;
+          &lt;span class=&quot;visuallyhidden&quot;&gt;Completed: &lt;/span&gt;
+          &lt;a href=&quot;billing.html&quot;&gt;Billing Address&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;timeline-current&quot;&gt;
+          &lt;span class=&quot;visuallyhidden&quot;&gt;Current: &lt;/span&gt;
+          &lt;span&gt;Shipping Address&lt;/span&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;review.html&quot;&gt;Review Order&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;payment.html&quot;&gt;Payment&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;finish.html&quot;&gt;Finish Purchase&lt;/a&gt;&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/figure&gt;
+              </code></pre>
+            </details>
+
+            <details>
+              <summary class="well well-sm">Code Snippet: CSS</summary>
+              <pre><code class="prettyprint">.tlwrapper {
+    display: table;
+    width: 100%;
+    }
+
+    .timeline {
+    display: table-row;
+    counter-reset: timeline;
+    }
+
+    .timeline li {
+    display: table-cell;
+    width: 20%;
+    counter-increment: timeline;
+    list-style: none;
+    text-align: center;
+    padding: .25em .5em;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    padding-left: 25px;
+    white-space: nowrap;
+    }
+
+    .timeline li:first-child {
+    padding-left: 0;
+    }
+
+    .timeline li:after {
+    left: 0;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(151, 204, 237, 0);
+    border-left-color: #ccc;
+    border-width: 20px;
+    margin-top: -20px;
+    }
+
+    .timeline li:first-child:after {
+    display: none;
+    }
+
+    .timeline li a,
+    .timeline li>span {
+    z-index: 100;
+    position: relative;
+    display: block;
+    color: #555;
+    text-decoration: none;
+    }
+
+    .timeline li a:before,
+    .timeline li>span:before {
+    display: inline-block;
+    color: #555;
+    content: counter(timeline);
+    background-color: none;
+    border: 3px solid #555;
+    margin-right: .25em;
+    border-radius: 5px;
+    padding: 0 .25em;
+    }
+
+    .timeline li.timeline-current>span,
+    .timeline li.timeline-current a {
+    color: #036;
+    font-weight: bold;
+    }
+
+    .timeline li.timeline-current>span:before {
+    color: #fff;
+    background-color: #036;
+    border-color: #036;
+    }
+
+    .timeline li.timeline-past {
+    background-color: #ccc;
+    }
+
+    .timeline li.timeline-past a:before {
+    color: green;
+    content: "\2713";
+    background-color: #fff;
+    border-color: green;
+    }
+
+    .timeline li.timeline-past a:hover:before,
+    .timeline li.timeline-past a:focus:before {
+    background-color: green;
+    color: #fff;
+    }
+
+    .visuallyhidden,
+    footer h2 {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+    }
+
+    .visuallyhidden.hasfocus,
+    footer h2.hasfocus,
+    .visuallyhidden.focusable:active,
+    footer h2.focusable:active,
+    .visuallyhidden.focusable:focus,
+    footer h2.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+              </code></pre>
+            </details>
+          </td>
+
+          <td>
+            <div class="form-group">
+              <link rel="stylesheet" href="./Multi-Step/style.css">
+              <figure class="sample ">
+                <div class="box-content">
+                  <div class="tlwrapper">
+                    <ol class="timeline">
+                      <li class="timeline-current">
+                        <span class="visuallyhidden">Completed: </span>
+                        <span>Step 1.</span>
+                      </li>
+                      <li><span>Step 2.</span></li>
+                      <li><span>Step 3.</span></li>
+                    </ol>
+                    <a href="./Multi-Step/step1.html">Full demo</a>
+                  </div>
+                </div>
+              </figure>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
 
     <h2 id="form-instruction">Form Inline Instruction</h2>
     <p>Inline instruction and descriptions related to a specific field can be missed by screen reader users in Forms Mode if not linked properly to the form field.</p>
