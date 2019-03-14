@@ -14,8 +14,8 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
   <title>Beta - Web Application Accessibility Guidance - Agriculture and Agri-Food Canada (AAFC)</title>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-  <meta property="dcterms:issued" title="W3CDTF" content="2013-02-21" />
-  <meta property="dcterms:modified" title="W3CDTF" content="2018-07-25" />
+  <meta property="dcterms:issued" title="W3CDTF" content="2019-03-14" />
+  <meta property="dcterms:modified" title="W3CDTF" content="2019-03-14" />
   <meta property="dcterms:format" title="gcformat" content="" />
   <meta property="dcterms:title" content="Canadian agri-food sector intelligence" />
   <meta property="aafc:subject" title="aafcsubject" content="bottled water industry;organic food industry;nutraceuticals" />
@@ -168,11 +168,10 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 
     <ul>
       <li><a href="#coding-design-tips">Coding and design tips</a></li>
-      <li>Multi-page Forms (in progress)
-        <ul>
-          <li>Step by Step indicator</li>
-        </ul>
-      </li>
+      <li><a href="#multi-step-pages">Multi-page Forms (in progress)</a></li>
+      <ul>
+        <li>Step by Step indicator</li>
+      </ul>
       <li><a href="#form-instruction">Form Instructions</a>
         <ul>
           <li><a href="#paragraph-instruction">Short Instruction in a paragraph</a></li>
@@ -187,22 +186,33 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
         </ul>
       </li>
     </ul>
+
     <div class="brdr-tp"></div>
     <h2 id="coding-design-tips">Coding and Design Tips!</h2>
-    <p>Here are tips and resourced relaetd to designing a form for the web</p>
+    <p>Here are tips and resourced related to designing a form for the web</p>
     <ul>
+      <li><a href="https://www.canada.ca/en/government/about/design-system/pattern-library.html">Canada.ca Templates and design patterns</a>: User-tested templates that are ready to use. This is part of the <a href="https://www.canada.ca/en/government/about/design-system.html">Canada.ca
+          design system</a> , page layouts, design patterns, guidelines, and code samples </li>
       <li><a href="https://uxdesign.cc/design-better-forms-96fadca0f49c">Design better forms </a>: Common mistakes designers make when designing web forms and how to fix them</li>
       <li><a href="https://www.nngroup.com/articles/ten-usability-heuristics/">10 Usability Heuristics for User Interface Design</a> : Usability considerations for user interface design </li>
     </ul>
-    <p>Tools to use</p>
+    <h3>Tools to use</h3>
     <ul>
       <li><a href="https://balsamiq.com/">Balsamiq WireFrames</a>: Create wireframes for the interface before starting prototype and lets discuss the potential accessibility concerns. </li>
     </ul>
+
+    <h2 id="multi-step-pages">Multi-Step Pages</h2>
+    <p>On a multi-step application, it is essential that the user be mindful of the current step and the progress they are making by indicating this in ALL three elements below:</p>
+    <ul>
+      <li>The title page AND</li>
+      <li>The heading level 1 H1 AND</li>
+      <li>A step by step indicator OR a progress bar depending on the nature of the content</li>
+    </ul>
+
+    <p class="coming-soon">Coming soon!</p>
+
     <h2 id="form-instruction">Form Inline Instruction</h2>
-
     <p>Inline instruction and descriptions related to a specific field can be missed by screen reader users in Forms Mode if not linked properly to the form field.</p>
-
-
 
     <table class="table table-bordered">
       <caption class="text-left">Examples on Form Instruction</caption>
@@ -278,8 +288,8 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
                 <br>
                 &lt;!-- Instruction link --&gt;
                 <br>
-                &lt;a href=&quot;#partner-percentatge-instruction&quot; class=&quot;wb-lbx lbx-modal lbx-hide-gal&quot;&gt; &lt;span class=&quot;glyphicon glyphicon-question-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt; Help &lt;span
-                class=&quot;wb-inv&quot;&gt;Instruction follows.&lt;/span&gt;&lt;/a&gt;<br>
+                &lt;a href=&quot;#partner-percentatge-instruction&quot; class=&quot;wb-lbx lbx-modal lbx-hide-gal&quot;&gt; &lt;span class=&quot;glyphicon glyphicon-question-sign&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span
+                class=&quot;wb-inv&quot;&gt; Help. Instruction follows.&lt;/span&gt;&lt;/a&gt;<br>
                 <br>
                 &lt;!-- lightbox code--&gt;<br>
                 &lt;section id=&quot;partner-percentatge-instruction&quot; class=&quot;mfp-hide modal-dialog modal-content overlay-def&quot;&gt;<br>
@@ -303,7 +313,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
                 <label for="partnership-share" id="partnership-label">In a partnership? Enter your share </label>
                 <span class="wb-inv" id="inst-partner-follows">Instruction follows.</span></div>
               <input style="display: inline;" type="number" min="0" max="100" class="form-control valid" name="partnership-share" id="partnership-share" aria-labelledby="partnership-label inst-partner-follows" />
-              <a href="#partner-percentatge-instruction" class="wb-lbx lbx-modal lbx-hide-gal"> <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> Help <span class="wb-inv">Instruction follows.</span></a>
+              <a href="#partner-percentatge-instruction" class="wb-lbx lbx-modal lbx-hide-gal"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span><span class="wb-inv">Help. Instruction follows.</span></a>
               <section id="partner-percentatge-instruction" class="mfp-hide modal-dialog modal-content overlay-def">
                 <header class="modal-header">
                   <h2 class="modal-title">Instruction - In a partnership? Enter your share</h2>
@@ -321,9 +331,6 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
         </tr>
       </tbody>
     </table>
-
-
-
 
 
     <h2 id="data-tables">Data Tables</h2>
