@@ -5,9 +5,7 @@
 
 <!--[if gt IE 8]><!-->
 <html class="no-js prettyprint" lang="en" dir="ltr">
-<!--<![endif]-->
-
-<head>
+<!--<![endif]--><head>
   <meta charset="utf-8" />
   <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
@@ -48,7 +46,9 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
   <script src="https://www.agr.gc.ca/res/wet-boew4/js/ie8-wet-boew.min.js"></script>
   <![endif]-->
 
-  <noscript>
+  
+
+<noscript>
     <link type="text/css" rel="stylesheet" href="https://www.agr.gc.ca/res/wet-boew4/css/noscript.min.css" /></noscript>
 
   <!-- CustomScriptsCSSStart -->
@@ -189,17 +189,57 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 
     <div class="brdr-tp"></div>
     <h2 id="coding-design-tips">Coding and Design Tips!</h2>
-    <p>Here are tips and resourced related to designing a form for the web</p>
+    <p>Here are tips and resourced to support   your accessibility journey </p>
+    <h3>Designing a form for the web</h3>
     <ul>
       <li><a href="https://www.canada.ca/en/government/about/design-system/pattern-library.html">Canada.ca Templates and design patterns</a>: User-tested templates that are ready to use. This is part of the <a href="https://www.canada.ca/en/government/about/design-system.html">Canada.ca
-          design system</a> , page layouts, design patterns, guidelines, and code samples </li>
+      design system</a> , page layouts, design patterns, guidelines, and code samples </li>
       <li><a href="https://uxdesign.cc/design-better-forms-96fadca0f49c">Design better forms </a>: Common mistakes designers make when designing web forms and how to fix them</li>
       <li><a href="https://www.nngroup.com/articles/ten-usability-heuristics/">10 Usability Heuristics for User Interface Design</a> : Usability considerations for user interface design </li>
+      <li><a href="https://balsamiq.com/">Tool - Balsamiq WireFrames</a>: Create wireframes for the interface before starting prototype and lets discuss the potential accessibility concerns. 
     </ul>
-    <h3>Tools to use</h3>
-    <ul>
-      <li><a href="https://balsamiq.com/">Balsamiq WireFrames</a>: Create wireframes for the interface before starting prototype and lets discuss the potential accessibility concerns. </li>
-    </ul>
+    <h3 id="a11y-testing-tools"> Testing Tools for Accessibility </h3>
+    <table aria-labelledby="a11y-testing-tools" class="table table-bordered">
+      <tr>
+        <th>Tool</th>
+        <th>Function</th>
+      </tr>
+      <tr>
+        <th><a href="http://www.paciellogroup.com/resources/contrast-analyser.html">Colour Contrast Analyzer</a></th>
+        <td>Verify the color contrast ratio required to pass WCAG 2</td>
+      </tr>
+      <tr>
+        <th><a href="https://developers.google.com/web/tools/lighthouse/">Google Lighthouse</a></th>
+        <td><p>Google Lighthouse Audit tool implemented in Google Chrome. The tool highlights presentation to the accessibility tree. It would save time in screen reader audit testing and would help debugging weired behaviors when testing with screen readers. <a href="Demo on using audit: https://www.youtube.com/watch?v=wkvslBGkhZY&t=1308s">Demo on use of Google Lighthouse</a></p>
+       </td>
+      </tr>
+      <tr>
+        <th><a href="http://wave.webaim.org/extension/">WAVE Chrome Extension</a></th>
+        <td><p>Analyse the code
+          </p>
+          <p><strong>Tips:          </strong></p>
+          <ul>
+            <li>Use the "Outline" icon to check the logical hierarchical order of the headings </li>
+            <li>Click on "Documentation" icon for a specific error or warning to get information on how to fix issue.              </li>
+            <li>Contrast tab gets you a list of elements with very low contrast.</li>
+        </ul></td>
+      </tr>
+      <tr>
+        <th><a href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/" rel="external">Web Developer</a></th>
+        <td><p>Analyse the code<br> <strong>Tip:</strong> Disable CSS and Javascript to verify the <a href="#footnotes">footnotes</a> coding</p></td>
+      </tr>
+      <tr>
+        <th><a href="http://validator.w3.org">W3C Markup Validation Service</a></th>
+        <td>Code validation on W3C Website</td>
+      </tr>
+      
+    
+    </table>
+     <h3 id="a11y-courses">Courses on web accessibility </h3>
+   <ul>
+   <li><a href="https://www.udacity.com/course/web-accessibility--ud891#">Web Accessibility by Google (online)</a>: Hands-on experience making web applications accessible.
+   <li><a href="https://learn-apprendre.csps-efpc.gc.ca/application/en/search/site/T716">Web Accessibility for Canada.ca (T716)</a>: Two days course offered by the CSPS to public servants in Canada</li>
+   <li><a href="https://learn-apprendre.csps-efpc.gc.ca/application/en/content/fundamentals-writing-web-a313">Fundamentals of Writing for the Web (A313)</a>: One day course offered by the CSPS to public servants in Canada</li>
 
     <h2 id="multi-step-pages">Multi-Step Pages</h2>
     <p>On a multi-step application, it is essential that the user be mindful of the current step and the progress they are making by indicating this in ALL three elements below:</p>
@@ -226,7 +266,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
     <table class="table table-bordered">
       <caption class="text-left">Examples on Form Instruction</caption>
       <thead>
-        <th class="active">Topic</th>
+      <th class="active">Topic</th>
         <th class="active">Coding</th>
         <th class="active">Presentation</th>
       </thead>
@@ -350,7 +390,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
     <table class="table table-bordered">
       <caption class="text-left">Coding Data Tables</caption>
       <thead>
-        <th class="active">Topic</th>
+      <th class="active">Topic</th>
         <th class="active, col-md-4, col-lg-4">Coding</th>
         <th class="active, col-md-6, col-lg-6">Visual Presentation</th>
       </thead>
@@ -641,7 +681,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
         </nav>
       </div>
     </div>
-  </footer>
+</footer>
   <!--[if gte IE 9 | !IE ]><!-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="https://www.agr.gc.ca/res/wet-boew4/js/wet-boew.min.js"></script>
