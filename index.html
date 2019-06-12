@@ -13,12 +13,12 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
   <meta content="width=device-width, initial-scale=1" name="viewport" />
 
   <meta property="dcterms:issued" title="W3CDTF" content="2019-03-15" />
-  <meta property="dcterms:modified" title="W3CDTF" content="2019-03-15" />
+  <meta property="dcterms:modified" title="W3CDTF" content="2019-06-12" />
   <meta property="dcterms:format" title="gcformat" content="" />
   <meta property="dcterms:title" content="Canadian agri-food sector intelligence" />
-  <meta property="aafc:subject" title="aafcsubject" content="bottled water industry;organic food industry;nutraceuticals" />
-  <meta property="dcterms:subject" title="gccore" content="benchmarks;imports;food" />
-  <meta property="dcterms:description" content="Poultry and Eggs Poultry and egg market information historical trends trade data and import permits factsheets and publications federally registered plants and stations and a list of industry associations." />
+  <meta property="aafc:subject" title="aafcsubject" content="accessible web applications" />
+  <meta property="dcterms:subject" title="gccore" content="web, wcag, accessibility, bill c-81" />
+  <meta property="dcterms:description" content="Living document that offers technical guidance for Agriculture and Agri-Food Canada web applications compliance against Government of Canada Standard on Web Accessibility." />
   <meta property="dcterms:language" title="ISO639-2" content="eng" />
   <meta property="keywords" content="snack foods;Livestock Livestock;Seafood Information;economic growth;three-month advance access period" />
   <meta property="dcterms:audience" title="gcaudience" content="" />
@@ -199,22 +199,39 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
       <li><a href="https://balsamiq.com/">Tool - Balsamiq WireFrames</a>: Create wireframes for the interface before starting prototype and lets discuss the potential accessibility concerns. 
     </ul>
     <h3 id="a11y-testing-tools"> Testing Tools for Accessibility </h3>
-    <table aria-labelledby="a11y-testing-tools" class="table table-bordered">
+    <table aria-labelledby="a11y-testing-tools" class="table table-bordered wb-tables">
       <tr>
+      <th>Number</th>
         <th>Tool</th>
+        <th>Type</th>
         <th>Function</th>
       </tr>
-      <tr>
-        <th><a href="http://www.paciellogroup.com/resources/contrast-analyser.html">Colour Contrast Analyzer</a></th>
-        <td>Verify the color contrast ratio required to pass WCAG 2</td>
+       <tr>
+       <td>1</td>
+        <th><a href="http://validator.w3.org">W3C Markup Validation Service</a></th>
+        <td>W3C service</td>
+        <td>Code validation on W3C Website</td>
       </tr>
       <tr>
-        <th><a href="https://developers.google.com/web/tools/lighthouse/">Google Lighthouse</a></th>
-        <td><p>Google Lighthouse Audit tool implemented in Google Chrome. The tool highlights presentation to the accessibility tree. It would save time in screen reader audit testing and would help debugging weired behaviors when testing with screen readers. <a href="Demo on using audit: https://www.youtube.com/watch?v=wkvslBGkhZY&t=1308s">Demo on use of Google Lighthouse</a></p>
-       </td>
+             <td>2</td>
+      <th><a href="https://addons.nvda-project.org/addons/focusHighlight.en.html">NVDA Focus Highlighter</a></th>
+      <td>Addon for <a href="https://www.nvaccess.org/download/">NVDA screen reader </a></td>
+            <td><p>Once NVDA focys highlighter is downloaded, right click on NVDA icon on the taskbar, Tools > manage add –on  > Install (and select the file downloaded) </p></td>
       </tr>
       <tr>
+             <td>3</td>
+        <th><a href="https://www.visionaustralia.org/services/digital-access/resources/downloads">Colour Contrast Analyzer</a></th>
+        <td>Stand Alone </td>
+        <td><p>Verify the color contrast ratio required to pass WCAG 2</p>
+          <ul>
+            <li><a href="https://www.visionaustralia.org/sites/default/files/docs/default-source/businesses-and-professional/colour_contrast_analyser32bit.exe?sfvrsn=2">Colour Contrast Analyser for Windows 32-bit</a></li>
+            <li><a href="https://www.visionaustralia.org/sites/default/files/docs/default-source/businesses-and-professional/colour_contrast_analyser64bit.exe?sfvrsn=2">Colour Contrast Analyser for Windows 64-bit</a></li>
+        </ul></td>
+      </tr>
+      <tr>
+             <td>4</td>
         <th><a href="http://wave.webaim.org/extension/">WAVE Chrome Extension</a></th>
+        <td>FireFox and Chrome</td>
         <td><p>Analyse the code
           </p>
           <p><strong>Tips:          </strong></p>
@@ -224,14 +241,36 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
             <li>Contrast tab gets you a list of elements with very low contrast.</li>
         </ul></td>
       </tr>
+     
+     
+       <tr>
+              <td>5</td>
+        <th><a href="https://www.visionaustralia.org/services/digital-access/resources/downloads">Complex Data Table Markup Toolbar</a></th>
+        <td>FireFox Addon</td>
+        <td>To install the toolbar, download the setup file <a href="https://www.visionaustralia.org/sites/default/files/docs/default-source/businesses-and-professional/comtab.zip?sfvrsn=6">comtab.zip</a>. The zip file contains a single file "complex_table_toolbar". Unzip to desktop, start up Firefox and drag the file into the main window area of Firefox. You can now use the toolbar on any table on any web page.</td>
+      </tr>
       <tr>
+             <td>6</td>
+      <th><a href="https://addons.mozilla.org/en-US/firefox/addon/visual-aria/">Visual ARIA</a></th>
+      <td>FireFox Addon</td>
+      <td>Observe ARIA codes used in the page</td>
+      </tr>
+      </tr>
+       <tr>
+              <td>7</td>
         <th><a href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/" rel="external">Web Developer</a></th>
+        <td>Firefox Addon</td>
         <td><p>Analyse the code<br> <strong>Tip:</strong> Disable CSS and Javascript to verify the <a href="#footnotes">footnotes</a> coding</p></td>
       </tr>
+       
       <tr>
-        <th><a href="http://validator.w3.org">W3C Markup Validation Service</a></th>
-        <td>Code validation on W3C Website</td>
+             <td>8</td>
+        <th><a href="https://developers.google.com/web/tools/lighthouse/">Google Lighthouse</a></th>
+        <td>Chrome Extention</td>
+        <td><p>Google Lighthouse Audit tool implemented in Google Chrome. The tool highlights presentation to the accessibility tree. It would save time in screen reader audit testing and would help debugging weired behaviors when testing with screen readers. <a href="Demo on using audit: https://www.youtube.com/watch?v=wkvslBGkhZY&t=1308s">Demo on use of Google Lighthouse</a></p>
+       </td>
       </tr>
+     
       
     
     </table>
